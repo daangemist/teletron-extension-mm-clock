@@ -28,7 +28,7 @@
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",
     "eslint": "^7.32.0",
-    "eslint-plugin-unicorn": "^36.0.0",
+    "eslint-plugin-unicorn": "^40.1.0",
     "prettier": "^2.3.2"
   },
   "dependencies": {

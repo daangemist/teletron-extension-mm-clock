@@ -1,0 +1,37 @@
+{
+  "name": "extension-mm-clock",
+  "private": "true",
+  "main": "backend/index.js",
+  "version": "0.1.0",
+  "keywords": [
+    "clock",
+    "magic-mirror",
+    "extension"
+  ],
+  "scripts": {
+    "watch": "nodemon backend/index.js",
+    "test": "nodemon tests/run/index.js"
+  },
+  "homepage": "https://github.com/daangemist/teletron-extension-mm-clock",
+  "bugs": {
+    "url": "https://github.com/daangemist/teletron-extension-mm-clock/issues"
+  },
+  "author": {
+    "name": "daangemist",
+    "url": "https://www.daangemist.nl"
+  },
+  "teletron": {
+    "name": "mm-clock",
+    "displayName": "Clock (Magic Mirror)"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1",
+    "eslint": "^7.32.0",
+    "eslint-plugin-unicorn": "^36.0.0",
+    "prettier": "^2.3.2"
+  },
+  "dependencies": {
+    "@teletron/magic-mirror-wrapper-node": "^0.1.2"
+  }
+}

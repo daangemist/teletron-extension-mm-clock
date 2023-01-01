@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -e
+
+tar -czf "./extension-mm-clock.tar.gz" README.MD backend mm-clock web package.json package-lock.json
+
+echo "Build available at: extension-mm-clock.tar.gz"

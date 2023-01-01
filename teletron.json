@@ -1,0 +1,9 @@
+{
+  "components": {
+    "clock": {
+      "displayName": "Clock",
+      "keywords": ["time", "date", "clock"],
+      "description": "This component displays the Magic Mirror clock module inside your Teletron environment."
+    }
+  }
+}

@@ -1,0 +1,5 @@
+/* Some minor CSS changes to make the CSS clock work properly */
+.clockCircle {
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}

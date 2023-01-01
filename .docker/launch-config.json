@@ -1,0 +1,53 @@
+{
+  "name": "extension-mm-clock",
+  "extensions": [
+    {
+      "installationName": "extension-mm-clock",
+      "path": "../build-extension"
+    }
+  ],
+  "data": {
+    "/core/components": [
+      {
+        "id": "mm-clock",
+        "name": "Clock",
+        "type": "mm-clock.clock",
+        "autoHide": false,
+        "data": {
+          "displayType": "both",
+          "analogFace": "face-012",
+          "analogPlacement": "right"
+        }
+      }
+    ],
+    "/core/views": [
+      {
+        "id": "mm-clock",
+        "name": "Clock view",
+        "components": [
+          {
+            "component": "mm-clock",
+            "position": {
+              "top": 3,
+              "left": 2,
+              "width": 1,
+              "height": 1
+            }
+          }
+        ],
+        "autoHide": false,
+        "gridWidth": 3,
+        "gridHeight": 3
+      }
+    ],
+    "/core/containers": [
+      {
+        "id": "mm-clock",
+        "name": "Clock",
+        "views": ["mm-clock"],
+        "widgets": [],
+        "widgetsPosition": ["right", "top"]
+      }
+    ]
+  }
+}

@@ -2,7 +2,7 @@
   "name": "extension-mm-clock",
   "private": "true",
   "main": "backend/index.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "keywords": [
     "clock",
     "magic-mirror",

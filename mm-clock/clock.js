@@ -132,7 +132,7 @@ Module.register("clock", {
 		}
 
 		let hourSymbol = "HH";
-		if (this.config.timeFormat !== 24) {
+		if (this.config.timeFormat != 24) {
 			hourSymbol = "h";
 		}
 
@@ -158,7 +158,7 @@ Module.register("clock", {
 			if (this.config.displaySeconds) {
 				timeWrapper.appendChild(secondsWrapper);
 			}
-			if (this.config.showPeriod && this.config.timeFormat !== 24) {
+			if (this.config.showPeriod && this.config.timeFormat != 24) {
 				timeWrapper.appendChild(periodWrapper);
 			}
 			digitalWrapper.appendChild(timeWrapper);
@@ -173,7 +173,7 @@ Module.register("clock", {
 		 */
 		function formatTime(config, time) {
 			let formatString = hourSymbol + ":mm";
-			if (config.showPeriod && config.timeFormat !== 24) {
+			if (config.showPeriod && config.timeFormat != 24) {
 				formatString += config.showPeriodUpper ? "A" : "a";
 			}
 			return moment(time).format(formatString);
